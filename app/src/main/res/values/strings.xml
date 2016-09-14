@@ -3,4 +3,10 @@
     <string name="correo_electronico">Correo Electrónico</string>
     <string name="contrasena">Contraseña</string>
     <string name="ingresar">Ingresar</string>
+    <string name="bienvenida">Bienvenido(a) </string>
+    <string name="navPerfil">Perfil</string>
+    <string name="navAmigos">Amigos</string>
+    <string name="navEventos">Eventos</string>
+    <string name="navCerrarSesion">Cerrar Sesión</string>
+    <string name="action_settings">Configuración</string>
 </resources>

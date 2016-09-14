@@ -1,5 +1,6 @@
 package com.oalvarez.compartefacil;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
@@ -41,13 +42,17 @@ public class MainActivity extends BaseActivity {
 
     }
 
-    @OnClick({R.id.btnLogin, R.id.btnRegistrar})
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.btnLogin:
-                break;
-            case R.id.btnRegistrar:
-                break;
-        }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, NavigationActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
