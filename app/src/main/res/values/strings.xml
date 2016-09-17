@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Comparte Fácil</string>
+    <string name="app_name">La Cuenta</string>
     <string name="correo_electronico">Correo Electrónico</string>
     <string name="contrasena">Contraseña</string>
     <string name="ingresar">Ingresar</string>
@@ -9,4 +9,10 @@
     <string name="navEventos">Eventos</string>
     <string name="navCerrarSesion">Cerrar Sesión</string>
     <string name="action_settings">Configuración</string>
+    <string name="nombre">Nombre</string>
+    <string name="fechaNacimiento">Fecha de Nacimiento</string>
+    <string name="contrasenarep">Repetir Contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ciudad">Ciudad</string>
 </resources>
